@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "vue/*"
+  ],
+  "version": "0.0.0"
+}
