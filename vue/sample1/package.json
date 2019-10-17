@@ -8,7 +8,7 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
-    "lint:watch": "onchange './src/**/*.{ts,vue}' -- yarn lint {{changed}}",
+    "lint:watch": "onchange \"./src/**/*.{ts,vue}\" -- yarn lint {{changed}}",
     "serve": "npm-run-all -p serve:only lint:watch"
   },
   "dependencies": {
